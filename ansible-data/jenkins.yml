@@ -1,0 +1,25 @@
+- hosts: all
+  become: yes
+  become_method: sudo
+  remote_user: root 
+  tasks:
+
+- name: Config Jenkins
+  hosts: frontend
+  tasks:
+  - name: update packages
+    raw: apt-get update
+
+  - name: install jdk
+    apt:
+      name:
+      - default-jdk
+      state: present
+
+  - name: Preconfig
+    include_role: 
+       name: geerlingguy.java
+
+  - name: Preconfig2
+    include_role: 
+       name: geerlingguy.jenkins
