@@ -17,7 +17,7 @@ Como caracteristicas especificas de este despliegue se requiere:
 
 ### 1. Arquitectura de implementación
 
-Con el fin de ilustrar los recursos necesarios para el despliegue de la plataforma Joomla, a continuación de muestra un diagrama.
+Con el fin de ilustrar los recursos necesarios para el despliegue de la plataforma Jenkins, a continuación de muestra un diagrama.
 
 <p align="center">
 <img width="900" alt="jenkins Arquitectura" src="https://user-images.githubusercontent.com/60987042/88074781-7a171c80-cb3d-11ea-9500-1456a98713b6.PNG">
